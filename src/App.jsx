@@ -12,7 +12,7 @@ import './App.css';
 function App() {
   return (
     <Router>
-      <Topbar />
+      
       <Navbar />
       <div style={{ paddingTop: '96px' }}>
       <Routes>
