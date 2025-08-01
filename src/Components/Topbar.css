@@ -1,0 +1,18 @@
+.topbar {
+  background-color: transparent;
+  color: rgb(0, 78, 247);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.9rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+}
+
+.topbar.hidden {
+  transform: translateY(-100%);
+}

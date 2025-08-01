@@ -1,0 +1,23 @@
+.seccion {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #9b0404;
+  border-bottom: 1px solid #ddd;
+}
+
+.seccion:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.seccion h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.seccion p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #555;
+  font-size: 1.1rem;
+}

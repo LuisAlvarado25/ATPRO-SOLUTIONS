@@ -1,0 +1,29 @@
+.banner-marcas-track {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+  animation: scroll-marcas 30s linear infinite;
+  background-color: white;
+
+}
+
+.marca-img {
+  width: 6rem;           /* = w-24 */
+  margin: 0 1.5rem;      /* = mx-6 */
+  object-fit: contain;
+}
+
+@media (min-width: 640px) {
+  .marca-img {
+    width: 12rem;        /* = sm:w-48 */
+  }
+}
+
+@keyframes scroll-marcas {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
